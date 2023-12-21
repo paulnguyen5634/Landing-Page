@@ -1,5 +1,43 @@
-.first-section {
-    font-family : 'Roboto';
-    color: white;
-    background-color: rgb(63, 63, 105);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    /* Goes into the body and makes all font to be roboto */
+    font-family: 'Roboto Slab', serif;
 }
+
+.first-section {
+    color: white;
+    background-color: #1f2937;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+} 
